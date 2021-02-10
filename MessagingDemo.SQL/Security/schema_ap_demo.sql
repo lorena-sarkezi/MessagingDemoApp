@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [ap_demo]
+	AUTHORIZATION [dbo];
