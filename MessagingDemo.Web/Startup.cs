@@ -31,10 +31,10 @@ namespace MessagingDemo.Web
 
             services.AddDbContext<DemoDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DbConnectionString")));
 
-            services.AddSpaStaticFiles(configuration =>
-            {
-                configuration.RootPath = "ReactApp/build";
-            });
+            //services.AddSpaStaticFiles(configuration =>
+            //{
+            //    configuration.RootPath = "ReactApp/build";
+            //});
 
             services.AddCors(o => o.AddPolicy("CorsAllowAll", builder =>
             {
@@ -61,7 +61,7 @@ namespace MessagingDemo.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseSpaStaticFiles();
+            //app.UseSpaStaticFiles();
 
             app.UseRouting();
 
@@ -76,19 +76,19 @@ namespace MessagingDemo.Web
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.Map("/react", react =>
-            {
-                react.UseSpa(spa =>
-                {
-                    spa.Options.SourcePath = "ReactApp";
+            //app.Map("/react", react =>
+            //{
+            //    react.UseSpa(spa =>
+            //    {
+            //        spa.Options.SourcePath = "ReactApp";
 
-                    if (env.IsDevelopment())
-                    {
-                        spa.UseReactDevelopmentServer(npmScript: "start");
-                    }
+            //        if (env.IsDevelopment())
+            //        {
+            //            spa.UseReactDevelopmentServer(npmScript: "start");
+            //        }
 
-                });
-            });
+            //    });
+            //});
         }
     }
 }
