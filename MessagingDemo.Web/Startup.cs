@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 
 using MessagingDemo.Data;
 using Microsoft.EntityFrameworkCore;
@@ -30,11 +29,6 @@ namespace MessagingDemo.Web
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             services.AddDbContext<DemoDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DbConnectionString")));
-
-            //services.AddSpaStaticFiles(configuration =>
-            //{
-            //    configuration.RootPath = "ReactApp/build";
-            //});
 
             services.AddCors(o => o.AddPolicy("CorsAllowAll", builder =>
             {
