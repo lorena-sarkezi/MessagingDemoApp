@@ -17,4 +17,4 @@ Backend:
 * Entity Framework Core
 * Microsoft SQL Server
 
-<img src="https://i.imgur.com/neDiJfs.png" width="480px" />
+<img src="https://i.imgur.com/neDiJfs.png" />
