@@ -9,7 +9,9 @@ Users can be selected (multiple) with checkboxes on the far left. The text area 
 ## 2. Tech stack
 Front end:
 * Razor pages standard view
-or 
+
+or alternatively
+
 * React.JS + [Ant Design](https://ant.design/components/overview/) - Work In Progress
 
 Backend:
