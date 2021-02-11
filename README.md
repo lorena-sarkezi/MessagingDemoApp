@@ -4,7 +4,7 @@
 App made as part of a technical interview for a dev position at a company.
 
 The main form (full name + phone) is used to create a user/recepient. Created users are pulled from database trough an API and displayed in the table below. 
-Users can be selected (multiple) with checkboxes on the far left. The text area below accepts a message of max. 160 characters. Hitting **Send** on the bottom will "send" a message to selected users/recepients by writing the messages to the database, and also to files for each users. 
+Users can be selected (multiple) with checkboxes on the far left. The text area below accepts a message of max. 160 characters. Hitting **Send** on the bottom will "send" a message to selected users/recepients by writing the messages to the database, and also to files for each individual user. 
 
 ## 2. Tech stack
 Front end:
