@@ -1,4 +1,4 @@
-#Simple messaging service/app
+# Simple messaging service/app
 
 ## 1. General info
 App made as part of a technical interview for a dev position at a company.
