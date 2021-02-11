@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MessagingDemo.Data.Models
 {
-   [Table("customers", Schema ="ap_demo")]
+   [Table("customers", Schema ="msg_demo")]
     public class Customer
     {
         [Required, Key, Column("customer_id"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]

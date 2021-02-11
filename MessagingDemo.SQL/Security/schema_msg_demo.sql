@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [msg_demo]
+	AUTHORIZATION [dbo];

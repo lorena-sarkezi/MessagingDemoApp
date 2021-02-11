@@ -63,9 +63,9 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Security\login_ap_demo.sql" />
-    <Build Include="Security\user_ap_demo.sql" />
-    <Build Include="Security\schema_ap_demo.sql" />
+    <Build Include="Security\login_msg_demo.sql" />
+    <Build Include="Security\user_msg_demo.sql" />
+    <Build Include="Security\schema_msg_demo.sql" />
     <Build Include="Tables\customers.sql" />
     <Build Include="Tables\messages.sql" />
   </ItemGroup>
