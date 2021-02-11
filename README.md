@@ -19,4 +19,4 @@ Backend:
 * Entity Framework Core
 * Microsoft SQL Server
 
-<img src="https://i.imgur.com/neDiJfs.png" />
+<img src="https://imgur.com/4n5b8YF.png" />
