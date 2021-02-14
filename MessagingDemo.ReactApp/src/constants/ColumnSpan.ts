@@ -1,13 +1,13 @@
 const ColumnSpan = {
     Primary:{
         xs:24,
-        md:16,
-        lg:12
+        md:14,
+        lg:10
     },
     Secondary:{
         xs:0,
-        md:4,
-        lg:6
+        md:5,
+        lg:7
     }
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Input, Button } from 'antd';
 import ICustomer from '../../models/ICustomer';
 
-interface FormProps {
+interface ComponentProps {
     onSubmit: (values:ICustomer) => void
     isLoading: boolean
 }
@@ -15,7 +15,7 @@ const tailLayout = {
     wrapperCol: { offset: 8, span: 16 },
 };
 
-const NameNumberForm = (props:FormProps) => {
+const NameNumberForm = (props:ComponentProps) => {
     return (
         <Form
             {...layout}
@@ -24,7 +24,7 @@ const NameNumberForm = (props:FormProps) => {
             <Form.Item
                 label="First and Last name"
                 name="fullName"
-                rules={[{ required: true, message: 'Requeired field!' }]}
+                rules={[{ required: true, message: 'Required field!' }]}
             >
                 <Input />
             </Form.Item>

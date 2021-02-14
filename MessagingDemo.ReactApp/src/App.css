@@ -3,5 +3,17 @@ h1{
 }
 
 .main{
-  height: 100vh i !important;
+  height: 100vh !important;
+}
+
+.msg-chars-left{
+  margin-top: 10px;
+}
+
+.msg-send-button{
+  margin-top: 10px;
+}
+
+.main-card{
+  margin-top: 10px !important;
 }
