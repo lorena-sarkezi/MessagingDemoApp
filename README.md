@@ -7,7 +7,7 @@ The main form (full name + phone) is used to create a user/recepient. Created us
 Users can be selected (multiple) with checkboxes on the far left. The text area below accepts a message of max. 160 characters. Hitting **Send** on the bottom will "send" a message to selected users/recepients by writing the messages to the database, and also to files for each individual user. 
 
 ## 2. Tech stack
-Front end (2 versions):
+Frontend (2 versions):
 * Razor/HTML, with Bootstrap 4
 
 * React.JS + [Ant Design](https://ant.design/components/overview/)
