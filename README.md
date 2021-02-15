@@ -7,10 +7,8 @@ The main form (full name + phone) is used to create a user/recepient. Created us
 Users can be selected (multiple) with checkboxes on the far left. The text area below accepts a message of max. 160 characters. Hitting **Send** on the bottom will "send" a message to selected users/recepients by writing the messages to the database, and also to files for each individual user. 
 
 ## 2. Tech stack
-Front end:
-* Razor pages standard view
-
-or alternatively
+Front end (2 versions):
+* Razor/HTML, with Bootstrap 4
 
 * React.JS + [Ant Design](https://ant.design/components/overview/) - Work In Progress
 
@@ -19,4 +17,11 @@ Backend:
 * Entity Framework Core
 * Microsoft SQL Server
 
-<img src="https://imgur.com/4n5b8YF.png" />
+## 3. Screenshots
+### 3.1. Razor/HTML version
+<img src="https://i.imgur.com/ScU4Evc.png" />
+
+### 3.2. React.JS version
+<img src="https://i.imgur.com/6QocHRC.png" />
+
+
