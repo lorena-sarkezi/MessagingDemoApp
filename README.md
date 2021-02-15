@@ -19,9 +19,14 @@ Backend:
 
 ## 3. Screenshots
 ### 3.1. Razor/HTML version
-<img src="https://i.imgur.com/ScU4Evc.png" />
+<kbd>
+  <img src="https://i.imgur.com/ScU4Evc.png" width="900px"/>
+</kbd>
 
 ### 3.2. React.JS version
-<img src="https://i.imgur.com/6QocHRC.png" />
+<kbd>
+  <img src="https://i.imgur.com/6QocHRC.png" width="900px"/>  
+</kbd>
+
 
 
