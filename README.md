@@ -10,7 +10,7 @@ Users can be selected (multiple) with checkboxes on the far left. The text area 
 Front end (2 versions):
 * Razor/HTML, with Bootstrap 4
 
-* React.JS + [Ant Design](https://ant.design/components/overview/) - Work In Progress
+* React.JS + [Ant Design](https://ant.design/components/overview/)
 
 Backend:
 * .NET 5
