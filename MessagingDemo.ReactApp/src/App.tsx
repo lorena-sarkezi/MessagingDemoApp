@@ -34,6 +34,9 @@ const App = () => {
           </Row>
           <ErrorModal />
         </Layout.Content>
+        <Layout.Footer>
+          &#169; 2021 - Lorena Šarkezi - MessagingDemo
+        </Layout.Footer>
       </ErrorModalContext.Provider>
 
     </Layout>

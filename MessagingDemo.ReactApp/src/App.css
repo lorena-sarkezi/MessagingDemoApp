@@ -2,6 +2,10 @@ h1{
   color:white !important;
 }
 
+footer{
+  text-align: center;
+}
+
 .main{
   height: 100vh !important;
 }

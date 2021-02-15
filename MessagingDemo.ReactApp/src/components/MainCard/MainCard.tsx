@@ -10,7 +10,7 @@ import IMessage from '../../models/IMessage';
 
 
 
-const MainCard = (props:any) => {
+const MainCard = (props:any) => { 
 
     const {showError, setShowError} = useErrorModal();
 
@@ -46,17 +46,19 @@ const MainCard = (props:any) => {
 
     const onMessageSend = async () => {
         try{
-            setIsMessageSendButtonLoading(true);
-            const data: IMessage = {
-                customers: selectedCustomerKeys,
-                message: messageContent
-            };
+            if(selectedCustomerKeys.length > 0){
+                setIsMessageSendButtonLoading(true);
+                const data: IMessage = {
+                    customers: selectedCustomerKeys,
+                    message: messageContent
+                };
 
-            const response = await axios.post("/api/demo/message", data);
+                const response = await axios.post("/api/demo/message", data);
 
-            setMessageContent("");
-            setSelectedCustomerKeys([]);
-            setIsMessageSendButtonLoading(false);
+                setMessageContent("");
+                setSelectedCustomerKeys([]);
+                setIsMessageSendButtonLoading(false);
+            }
         }
         catch(e){
             console.error(e);
@@ -109,7 +111,7 @@ const MainCard = (props:any) => {
                 data={customers} 
                 selectedKeys={selectedCustomerKeys}
                 itemsSelectedCallback={onTableChkSelect}/>
-            <p className="msg-chars-left">SMS Message (max 160 charscters, {charsLeft} left</p>
+            <p className="msg-chars-left">SMS Message (max 160 characters, {charsLeft} left)</p>
             <Input.TextArea 
                 value={messageContent}
                 maxLength={160} 
